@@ -53,7 +53,9 @@
 </template>
 
 <script setup>
-// لا حاجة لأي سكريبت هنا حالياً
+import { ref } from 'vue'
+import { useRouter } from 'vue-router';
+const router = useRouter;
 </script>
 
 <style scoped>

@@ -6,9 +6,12 @@
     <section class="p-8">
       <!-- Content... -->
     </section>
+    <Footer />
   </div>
 </template>
 
 <script setup>
 import Navbar from '../components/navbar.vue'
+import Footer from "../components/footer.vue"
+
 </script>
