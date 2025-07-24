@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import Home from '../Pages/home.vue'
 
 import Login from '../Pages/auth/login.vue'
