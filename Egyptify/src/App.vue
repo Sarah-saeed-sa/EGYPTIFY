@@ -3,10 +3,12 @@ import { RouterView } from 'vue-router';
 
 </script>
 
+
 <template>
-  <div class="w-full">
-    <Navbar />
-    <RouterView />
-    
+
+  <div>
+      <Navbar/>
+    <RouterView/>
   </div>
+  
 </template>

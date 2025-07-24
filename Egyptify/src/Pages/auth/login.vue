@@ -3,13 +3,16 @@
     <h2 class="text-xl font-bold mb-4">Login</h2>
     <input v-model="email" placeholder="Email" class="border p-2 w-full mb-2" />
     <input v-model="password" type="password" placeholder="Password" class="border p-2 w-full mb-2" />
-    <button @click="handleLogin" class="text-white px-4 py-2 rounded">Login</button>
+    <!-- <button @click="handleLogin" class="text-white px-4 py-2 rounded">Login</button> -->
+     <BaseButton>Click Me</BaseButton>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import BaseButton from '../../components/BaseButton.vue'
+
 
 const email = ref('')
 const password = ref('')
