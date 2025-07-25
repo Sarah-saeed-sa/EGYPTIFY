@@ -10,10 +10,10 @@ const props = defineProps({
     type: String,
     default: 'text',
   },
-  icon: String, // مثال: 'fas fa-user'
+  icon: String, 
   iconPosition: {
     type: String,
-    default: 'left', // 'right' كمان متاح
+    default: 'left', 
   },
 })
 
@@ -32,7 +32,6 @@ const emit = defineEmits(['update:modelValue'])
       >
 <i class="fa-solid fa-download "></i>      </span>
 
-      <!-- Input -->
       <input
         :type="type"
         :value="modelValue"
